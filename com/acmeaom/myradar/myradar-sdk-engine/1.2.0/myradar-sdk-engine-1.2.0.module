@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acmeaom.myradar",
+    "module": "myradar-sdk-engine",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myradar-sdk-engine-1.2.0.aar",
+          "url": "myradar-sdk-engine-1.2.0.aar",
+          "size": 7704293,
+          "sha512": "037b14bb7b836115ef3ab626befc5220b18c217a3c0c8c3082a3cebacec378aeb3598f8d0f0f3c0a39930cabf77520f2fd39356e45dc676735d7d76811b56a5d",
+          "sha256": "e55b8f5ed7ac59e4cec394b6e896babe0598da72f507fe06042a2e7910e7b87b",
+          "sha1": "288b35acf4a5800986d09b5c358bbf59aeed6da4",
+          "md5": "0159e28b615bebb83ad3f82f8d578f99"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-bom",
+          "version": {
+            "requires": "5.4.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp"
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myradar-sdk-engine-1.2.0.aar",
+          "url": "myradar-sdk-engine-1.2.0.aar",
+          "size": 7704293,
+          "sha512": "037b14bb7b836115ef3ab626befc5220b18c217a3c0c8c3082a3cebacec378aeb3598f8d0f0f3c0a39930cabf77520f2fd39356e45dc676735d7d76811b56a5d",
+          "sha256": "e55b8f5ed7ac59e4cec394b6e896babe0598da72f507fe06042a2e7910e7b87b",
+          "sha1": "288b35acf4a5800986d09b5c358bbf59aeed6da4",
+          "md5": "0159e28b615bebb83ad3f82f8d578f99"
+        }
+      ]
+    }
+  ]
+}
