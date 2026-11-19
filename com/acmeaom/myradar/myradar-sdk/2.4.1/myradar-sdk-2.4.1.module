@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acmeaom.myradar",
+    "module": "myradar-sdk",
+    "version": "2.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myradar-sdk-2.4.1.aar",
+          "url": "myradar-sdk-2.4.1.aar",
+          "size": 1041211,
+          "sha512": "7d26a10d694ef18977a59ad2ea46d4aec02ec43a8018b31f28efb51990be1feae89622ec9b70f7e40a4bae095a4bf3e291afd543b6588f1f160ae3b41af89940",
+          "sha256": "db9e6e4af0404cb7789fc33cb95d3a7084877744f2a1419807dfc7f7d401f161",
+          "sha1": "7667be9cfcc621cbf19573cc68480b651153e47f",
+          "md5": "f1fff296c252f1a68e4ee38abd9bb7e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-bom",
+          "version": {
+            "requires": "5.4.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp"
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.05.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myradar-sdk-2.4.1.aar",
+          "url": "myradar-sdk-2.4.1.aar",
+          "size": 1041211,
+          "sha512": "7d26a10d694ef18977a59ad2ea46d4aec02ec43a8018b31f28efb51990be1feae89622ec9b70f7e40a4bae095a4bf3e291afd543b6588f1f160ae3b41af89940",
+          "sha256": "db9e6e4af0404cb7789fc33cb95d3a7084877744f2a1419807dfc7f7d401f161",
+          "sha1": "7667be9cfcc621cbf19573cc68480b651153e47f",
+          "md5": "f1fff296c252f1a68e4ee38abd9bb7e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "myradar-sdk-2.4.1-sources.jar",
+          "url": "myradar-sdk-2.4.1-sources.jar",
+          "size": 197240,
+          "sha512": "55d320bb0051016367ee995d1cf5e9735f78b0f1afd3d6d01b113a6700dd9d3d0c7e072a29aba99553f1ff7f503b919c41cb347c5cda00b78e3309bc3916b20a",
+          "sha256": "a28ec82813bce1985ce55a8e665c45f2c5030db87880301e464936d0c6032105",
+          "sha1": "791faf457401eb1077fa7492ea7dd9570f91187c",
+          "md5": "1a7fc5d31e5ff320abb1b9165715846a"
+        }
+      ]
+    }
+  ]
+}
